@@ -1,0 +1,16 @@
+# Build artifacts (executables)
+**/build/
+
+# Auto-generated test BMPs (regenerate via scripts/auto_bmp_benchmark.py)
+hw1/assets/test_bmps/
+hw2/sub1/assets/test_bmps/
+hw2/sub2/assets/test_bmps/
+
+# Large report images (hw1 has 30MB+ comparison images)
+hw1/assets/report_images/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
